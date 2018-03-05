@@ -1,1 +1,30 @@
 /* pages/about/about.wxss */
+.container {
+  padding: 0;
+  text-align: center;
+}
+.img-center {
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+}
+.image-top {
+  height: 200px;
+}
+.image-icon {
+  height: 52px;
+  margin: 2em auto 1em auto;
+}
+.image-title {
+  height: 60px;
+  margin: 2em auto 1em auto;
+}
+.image-office {
+  height: 350px;
+  margin: 1em auto;
+  width: auto;
+}
+.title {
+  color: #666;
+  font-weight: 200;
+}
