@@ -14,13 +14,13 @@ const Fetch = (function () {
         success(res) {
           console.log('response---------')
           console.log(res)
-          if (Number(res.data.statusCode) === 200) {
+          if (Number(res.statusCode) === 200) {
             // 请求成功
             resolve(res.data)
           } else {
             //  其他情况弹出提示
             wx.showToast({
-              title: res.data.errMsg,
+              title: res.errMsg,
               duration: 1000,
               icon: 'none'
             })

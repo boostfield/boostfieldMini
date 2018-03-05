@@ -1,4 +1,5 @@
 /**app.wxss**/
+
 /* .container {
   height: 100%;
   display: flex;
@@ -12,5 +13,57 @@
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #fff;
+}
+
+.font-color-white {
+  color: #fff;
+}
+
+.font-color-black {
+  color: #000;
+}
+
+.font-color-blue {
+  color: #3d45b9;
+}
+
+.font-color-h1 {
+  color: #000;
+}
+
+.font-color-h2 {
+  color: #585858;
+}
+
+.font-size-h1 {
+  font-size: 50rpx;
+}
+
+.font-size-h2 {
+  font-size: 34rpx;
+}
+
+.font-size-h3 {
+  font-size: 30rpx;
+}
+
+.font-size-h4 {
+  font-size: 26rpx;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -50rpx;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
 }

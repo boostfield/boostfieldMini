@@ -1,1 +1,29 @@
-/* pages/product/product.wxss */
+.scroll-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b3e5a;
+  padding: 100rpx 0;
+  width: inherit;
+}
+
+.image-item1 {
+  height: 400rpx;
+}
+
+.image-item2 {
+  height: 300rpx;
+}
+
+.gap {
+  background-color: #f7f9fa;
+  height: 60rpx;
+}
