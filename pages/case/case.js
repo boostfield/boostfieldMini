@@ -1,4 +1,5 @@
-// pages/case/case.js
+const Service = require('../../service/Service')
+
 Page({
 
   /**
@@ -12,7 +13,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    Service.getCases().then((res) => {
+      
+    })
   },
 
   /**
