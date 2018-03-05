@@ -11,8 +11,6 @@
 }  */
 
 .container {
-  width: 100vw;
-  height: 100vh;
   background-color: #fff;
 }
 
@@ -66,4 +64,5 @@
 .flex-center {
   display: flex;
   align-items: center;
+  justify-content: center;
 }

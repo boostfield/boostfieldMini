@@ -1,7 +1,8 @@
 const host = 'http://www.boostfield.com'
 
 let Api = {
-  'getCases': host + '/wp-json/wp/v2/posts?cat=18',
+  'getCases': host + '/wp-json/wp/v2/posts?_embed&categories=18',
+  'getCaseDetail': host + '/wp-json/wp/v2/posts/'
 }
 
 module.exports = Api

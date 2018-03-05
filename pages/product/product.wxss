@@ -1,3 +1,9 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+
 .scroll-view {
   display: flex;
   flex-direction: column;
