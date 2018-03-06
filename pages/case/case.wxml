@@ -1,13 +1,13 @@
 <view class="container">
   <view wx:for="{{cases}}" wx:key="{{item.id}}" bindtap="itemClick" data-id="{{item.id}}" class="item">
     <view class="flex-column flex-center" >
-      <image class="cover-image" mode="widthFix" src="{{item._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url}}"></image>
-      <text class="title">{{item.title.rendered}}</text>
-      <rich-text nodes="{{item.excerpt.rendered}}"></rich-text>
+      <image class="cover-image" mode="widthFix" src="{{item.imageUrl}}"></image>
+      <text class="title">{{item.title}}</text>
+      <rich-text nodes="{{item.subTitle}}"></rich-text>
     </view>
     <view class="round-image flex-column-center">
-      <text class="font-color-white font-size-h3">01</text>
-      <text class="font-color-white font-size-h4">3月</text>
+      <text class="font-color-white font-size-h2">{{item.day}}</text>
+      <text class="font-color-white font-size-h4">{{item.month}}月</text>
     </view>
   </view>
 </view>

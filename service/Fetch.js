@@ -12,8 +12,6 @@ const Fetch = (function () {
         url,
         data,
         success(res) {
-          console.log('response---------')
-          console.log(res)
           if (Number(res.statusCode) === 200) {
             // 请求成功
             resolve(res.data)

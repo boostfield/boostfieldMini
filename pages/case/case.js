@@ -15,8 +15,9 @@ Page({
    */
   onLoad: function (options) {
     Service.getCases().then((data) => {
+      console.log(data)
       this.setData({
-        cases: data
+        cases: data,
       })
     })
   },
