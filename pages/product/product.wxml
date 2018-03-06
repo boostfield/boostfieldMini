@@ -1,9 +1,9 @@
 <view class="container">
-  <scroll-view scroll-y="true" class="scroll-view">
-    <view class="top">
-      <text class="font-color-white">我们打造全面的服务</text>
-      <text class="font-color-white">开发你的未来</text>
-    </view>
+  <view class="top">
+    <text class="font-color-white">我们打造全面的服务</text>
+    <text class="font-color-white">开发你的未来</text>
+  </view>
+  <view class="container-padding">
     <view class="flex-column flex-center">
       <text class="font-color-h1 font-size-h1">定制建站</text>
       <text class="font-color-h2 font-size-h2">在意每一丝细节，我们的专业实力，定能让您满意</text>
@@ -62,5 +62,5 @@
     </view>
     <view class="gap"></view>
     <text>在田</text>
-  </scroll-view>
+  </view>
 </view>
