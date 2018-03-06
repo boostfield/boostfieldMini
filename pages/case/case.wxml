@@ -1,9 +1,9 @@
 <view class="container">
   <view wx:for="{{cases}}" wx:key="{{item.id}}" bindtap="itemClick" data-id="{{item.id}}" class="item">
-    <view class="flex-column flex-center" >
+    <view class="flex-column flex-center">
       <image class="cover-image" mode="widthFix" src="{{item.imageUrl}}"></image>
-      <text class="title">{{item.title}}</text>
-      <rich-text nodes="{{item.subTitle}}"></rich-text>
+      <text class="title font-size-h2">{{item.title}}</text>
+      <text class="sub-title font-size-h3">{{item.subTitle}}</text>
     </view>
     <view class="round-image flex-column-center">
       <text class="font-color-white font-size-h2">{{item.day}}</text>

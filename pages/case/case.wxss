@@ -29,3 +29,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.title {
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.sub-title {
+  margin: 0 20rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
