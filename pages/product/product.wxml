@@ -1,66 +1,64 @@
 <view class="container">
-  <view class="top">
-    <text class="font-color-white">我们打造全面的服务</text>
-    <text class="font-color-white">开发你的未来</text>
+
+  <swiper indicator-dots="true" indicator-active-color="#ffffff" class="swiper">
+    <swiper-item wx:for="{{banners}}" wx:key="{{item}}" class="flex-column flex-center">
+      <image class="swiper-img" src="{{item.img}}" mode="aspectFill"></image>
+      <view class="swiper-text font-color-white">
+        <text class="swiper-title font-size-large">{{item.title}}</text>
+        <text class="swiper-subtitle font-size-h4">{{item.subTitle}}</text>
+      </view>
+    </swiper-item>
+  </swiper>
+
+  <view class="content">
+    <view class="service">
+      <view class="flex-row flex-vertical-center-left">
+        <view class="service-title-icon"></view>
+        <text class="font-size-h1">服务范围 SERVICE</text>
+      </view>
+      <view class="flex-column flex-center service-item">
+        <image class="service-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_01.png"></image>
+        <text class="font-color-black font-size-h3 service-subtitle">一站式解决方案</text>
+        <text class="font-color-h3 font-size-h5 service-desc">从需求梳理，UI设计，到产品开发，测试上线，我们全程服务，并为您提供专业的产品与技术建议。</text>
+      </view>
+      <view class="flex-column flex-center service-item">
+        <image class="service-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_02.png"></image>
+        <text class="font-color-black font-size-h3 service-subtitle">可扩展的架构</text>
+        <text class="font-color-h3 font-size-h5 service-desc">深度剖析行业与业务发展趋势，用松耦合，易扩展的架构拥抱不断演进的需求。</text>
+      </view>
+      <view class="flex-column flex-center service-item">
+        <image class="service-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_03.png"></image>
+        <text class="font-color-black font-size-h3 service-subtitle">进度实时反馈</text>
+        <text class="font-color-h3 font-size-h5 service-desc">根据项目具体要求设定里程碑，实时反馈进度, 保证您随时可知项目进展。</text>
+      </view>
+      <view class="flex-column flex-center service-item">
+        <image class="service-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_04.png"></image>
+        <text class="font-color-black font-size-h3 service-subtitle">长期技术支持</text>
+        <text class="font-color-h3 font-size-h5 service-desc">助力企业的长期发展，一旦达成合作,我们将为您提供长期的技术支持与咨询服务。</text>
+      </view>
+    </view>
+
+    <view class="flex-column flex-center partner">
+      <text class="partner-title font-size-large">我们的合作伙伴包括企业及创新型公司</text>
+      <image class="partner-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_partner_01.png"></image>
+      <image class="partner-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_partner_02.png"></image>
+      <image class="partner-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_partner_03.png"></image>
+      <image class="partner-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_partner_04.png"></image>
+      <image class="partner-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_partner_05-1.png"></image>
+      <image class="partner-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_partner_04-1.png"></image>
+      <image class="partner-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_partner_01-1.png"></image>
+    </view>
   </view>
-  <view class="container-padding">
-    <view class="flex-column flex-center">
-      <text class="font-color-h1 font-size-h1">定制建站</text>
-      <text class="font-color-h2 font-size-h2">在意每一丝细节，我们的专业实力，定能让您满意</text>
-    </view>
-    <image mode="aspectFit" src="../../image/img_web.png"></image>
-    <view class="flex-column">
-      <view class="flex-space-between">
-        <image mode="aspectFit" src="../../image/img_web_01.png" class="image-item1"></image>
-        <image mode="aspectFit" src="../../image/img_web_02.png" class="image-item1"></image>
-      </view>
-      <view class="flex-space-between">
-        <image mode="aspectFit" src="../../image/img_web_05.png" class="image-item1"></image>
-        <image mode="aspectFit" src="../../image/img_web_06.png" class="image-item1"></image>
-      </view>
-      <view class="flex-space-between">
-        <image mode="aspectFit" src="../../image/img_web_08.png" class="image-item1"></image>
-        <image mode="aspectFit" src="../../image/img_web_07.png" class="image-item1"></image>
-      </view>
-      <view class="flex-space-between">
-        <image mode="aspectFit" src="../../image/img_web_03.png" class="image-item1"></image>
-        <image mode="aspectFit" src="../../image/img_web_04.png" class="image-item1"></image>
-      </view>
-    </view>
-    <text class="font-color-h1 font-size-h1 flex-column flex-center">购买流程</text>
-    <image mode="aspectFit" src="../../image/img_web_flow.png"></image>
-    <view class="gap"></view>
-    <view class="flex-column flex-center">
-      <text class="font-color-h1 font-size-h1">微信小程序</text>
-      <text class="font-color-h2 font-size-h2">把握每一个流量入口</text>
-    </view>
-    <image mode="aspectFit" src="../../image/img_xcx.png"></image>
-    <text class="font-color-h1 font-size-h1 flex-column flex-center">使用场景</text>
-    <view class="flex-column">
-      <view class="flex-space-between">
-        <image mode="aspectFit" src="../../image/img_xcx_08.png" class="image-item2"></image>
-        <image mode="aspectFit" src="../../image/img_xcx_06.png" class="image-item2"></image>
-      </view>
-      <view class="flex-space-between">
-        <image mode="aspectFit" src="../../image/img_xcx_07.png" class="image-item2"></image>
-        <image mode="aspectFit" src="../../image/img_xcx_04.png" class="image-item2"></image>
-      </view>
-      <view class="flex-space-between">
-        <image mode="aspectFit" src="../../image/img_xcx_05.png" class="image-item2"></image>
-        <image mode="aspectFit" src="../../image/img_xcx_02.png" class="image-item2"></image>
-      </view>
-      <view class="flex-space-between">
-        <image mode="aspectFit" src="../../image/img_xcx_01.png" class="image-item2"></image>
-        <image mode="aspectFit" src="../../image/img_xcx_03.png" class="image-item2"></image>
-      </view>
-    </view>
-    <text class="font-color-h1 font-size-h1 flex-column flex-center">开发流程</text>
-    <view class="flex-column flex-center">
-      <image mode="aspectFit" src="../../image/img_xcx_flow.png"></image>
-      <text class="font-size-h2 font-color-blue">剩下的编码、打包、发布、审核、上线等麻烦事全部交给我们</text>
-      <image mode="aspectFit" src="../../image/img_xcx_develop.png"></image>
-    </view>
-    <view class="gap"></view>
-    <text>在田</text>
+
+  <view class="flex-column footer">
+    <image class="footer-logo" mode="widthFix" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_bottom_logo.png"></image>
+    <text class="footer-subtitle font-size-h6">厦门在田信息技术有限公司</text>
+    <text class="footer-subtitle font-size-h6">Copyright 2018 © Boostfield</text>
+    <text class="footer-title font-size-h4">联系我们</text>
+    <text class="footer-subtitle font-size-h6">厦门市湖里区枋湖西路189号四海智慧园307</text>
+    <text class="footer-subtitle font-size-h6">0592-3278579</text>
+    <text class="footer-subtitle font-size-h6">business@boostfield.com</text>
+    <text class="footer-title font-size-h4">微信联系</text>
+    <image class="footer-qrcode" mode="widthFix" bindtap="tapQrCode" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_wechat.png"></image>
   </view>
 </view>
