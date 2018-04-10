@@ -49,17 +49,15 @@
 
 .swiper-text {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .swiper-title {
   font-weight: bold;
+  margin-left: 20rpx;
 }
 
 .swiper-subtitle {
+  margin-left: 20rpx;
 }
 
 .content {
@@ -129,7 +127,7 @@
 
 .footer-title {
   color: #5a6479;
-  margin: 80rpx 0;
+  margin: 40rpx 0;
 }
 
 .footer-subtitle {
