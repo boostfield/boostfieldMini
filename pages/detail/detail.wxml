@@ -1,7 +1,1 @@
-<!-- <view>
-  <rich-text nodes="{{nodes}}"></rich-text>
-</view> -->
-<import src="../../wxParse/wxParse.wxml"/>
-<view class="content">
-<template is="wxParse" data="{{wxParseData:article.nodes}}"/>
-</view>
+<web-view src="{{url}}"></web-view>

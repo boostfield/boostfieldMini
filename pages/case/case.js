@@ -23,7 +23,8 @@ Page({
   },
 
   itemClick(e) {
-    const { id } = e.currentTarget.dataset
-    navigateTo('../detail/detail?', { 'id': id})
+    const { id, link } = e.currentTarget.dataset
+    console.log(link)
+    navigateTo('../detail/detail?', { 'id': id, 'link': link})
   }
 })

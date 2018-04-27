@@ -12,5 +12,26 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "在田科技",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3d45b9",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/product/product",
+        "text": "首页",
+        "iconPath": "image/tabbar/ic_toolbar_home_n.png",
+        "selectedIconPath": "image/tabbar/ic_toolbar_home_p.png"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "text": "案例",
+        "iconPath": "image/tabbar/ic_toolbar_case_n.png",
+        "selectedIconPath": "image/tabbar/ic_toolbar_case_p.png"
+      }
+    ]
   }
 }

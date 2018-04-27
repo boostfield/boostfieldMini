@@ -12,6 +12,7 @@
 
 .container {
   background-color: #fff;
+  font-family: HelveticaNeue, PingFang SC, Microsoft YaHei;
 }
 
 .font-color-white {
@@ -43,19 +44,19 @@
 }
 
 .font-size-h1 {
-  font-size: 50rpx;
-}
-
-.font-size-h2 {
   font-size: 46rpx;
 }
 
-.font-size-h3 {
+.font-size-h2 {
   font-size: 42rpx;
 }
 
-.font-size-h4 {
+.font-size-h3 {
   font-size: 38rpx;
+}
+
+.font-size-h4 {
+  font-size: 36rpx;
 }
 
 .font-size-h5 {
@@ -63,15 +64,15 @@
 }
 
 .font-size-h6 {
-  font-size: 30rpx;
+  font-size: 28rpx;
 }
 
 .font-size-h7 {
-  font-size: 26rpx;
+  font-size: 24rpx;
 }
 
 .font-size-h8 {
-  font-size: 22rpx;
+  font-size: 20rpx;
 }
 
 .flex-space-between {
@@ -105,4 +106,13 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
+}
+.underline {
+  text-decoration: underline;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
 }

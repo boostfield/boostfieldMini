@@ -1,6 +1,7 @@
 .container {
   background-color: #fff;
   padding: 0;
+  font-family: HelveticaNeue, PingFang SC, Microsoft YaHei;
 }
 
 .container-padding {
@@ -30,6 +31,9 @@
   height: 60rpx;
   margin: 0 -20rpx;
 }
+.highlight {
+  color: #6173f4 !important;
+}
 
 .swiper {
   height: 450rpx;
@@ -58,9 +62,6 @@
 
 .swiper-subtitle {
   margin-left: 20rpx;
-}
-
-.content {
 }
 
 .service {

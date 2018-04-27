@@ -1,6 +1,6 @@
 <view class="container">
 
-  <swiper indicator-dots="true" indicator-active-color="#ffffff" class="swiper" bindchange="bindSwiperChange" circular="true">
+  <swiper indicator-dots="true" indicator-active-color="#ffffff" class="swiper" bindchange="bindSwiperChange" circular="true" autoplay="true">
     <block wx:for="{{banners}}" wx:key="{{item}}">
       <swiper-item class="flex-column {{swiperItemCss}}">
         <image class="swiper-img" src="{{item.img}}" mode="aspectFill"></image>
@@ -21,22 +21,22 @@
       <view class="flex-column flex-center service-item">
         <image class="service-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_01.png"></image>
         <text class="font-color-black font-size-h3 service-subtitle">一站式解决方案</text>
-        <text class="font-color-h3 font-size-h5 service-desc">从需求梳理，UI设计，到产品开发，测试上线，我们全程服务，并为您提供专业的产品与技术建议。</text>
+        <text class="font-color-h3 font-size-h6 service-desc">从需求梳理，UI设计，到产品开发，测试上线，我们全程服务，并为您提供专业的产品与技术建议。</text>
       </view>
       <view class="flex-column flex-center service-item">
         <image class="service-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_02.png"></image>
         <text class="font-color-black font-size-h3 service-subtitle">可扩展的架构</text>
-        <text class="font-color-h3 font-size-h5 service-desc">深度剖析行业与业务发展趋势，用松耦合，易扩展的架构拥抱不断演进的需求。</text>
+        <text class="font-color-h3 font-size-h6 service-desc">深度剖析行业与业务发展趋势，用松耦合，易扩展的架构拥抱不断演进的需求。</text>
       </view>
       <view class="flex-column flex-center service-item">
         <image class="service-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_03.png"></image>
         <text class="font-color-black font-size-h3 service-subtitle">进度实时反馈</text>
-        <text class="font-color-h3 font-size-h5 service-desc">根据项目具体要求设定里程碑，实时反馈进度, 保证您随时可知项目进展。</text>
+        <text class="font-color-h3 font-size-h6 service-desc">根据项目具体要求设定里程碑，实时反馈进度, 保证您随时可知项目进展。</text>
       </view>
       <view class="flex-column flex-center service-item">
         <image class="service-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_04.png"></image>
         <text class="font-color-black font-size-h3 service-subtitle">长期技术支持</text>
-        <text class="font-color-h3 font-size-h5 service-desc">助力企业的长期发展，一旦达成合作,我们将为您提供长期的技术支持与咨询服务。</text>
+        <text class="font-color-h3 font-size-h6 service-desc">助力企业的长期发展，一旦达成合作,我们将为您提供长期的技术支持与咨询服务。</text>
       </view>
     </view>
 
@@ -53,14 +53,13 @@
   </view>
 
   <view class="flex-column footer">
-    <image class="footer-logo" mode="widthFix" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_bottom_logo.png"></image>
-    <text class="footer-subtitle font-size-h6">厦门在田信息技术有限公司</text>
-    <text class="footer-subtitle font-size-h6">Copyright 2018 © Boostfield</text>
-    <text class="footer-title font-size-h4">联系我们</text>
-    <text class="footer-subtitle font-size-h6">厦门市湖里区枋湖西路189号四海智慧园307</text>
-    <text class="footer-subtitle font-size-h6">0592-3278579</text>
+    <image class="footer-logo" mode="widthFix" style="width: 120px;" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_bottom_logo.png"></image>
+    <text class="footer-subtitle font-size-h4 highlight">厦门在田信息技术有限公司</text>
+    <text class="footer-title font-size-h5">联系我们</text>
+    <text class="footer-subtitle font-size-h6 underline" bindtap="tapAddress">厦门市湖里区枋湖西路189号四海智慧园307</text>
+    <text class="footer-subtitle font-size-h6 underline" bindtap="tapPhone">0592-3278579</text>
     <text class="footer-subtitle font-size-h6">business@boostfield.com</text>
-    <text class="footer-title font-size-h4">微信联系</text>
+    <text class="footer-title font-size-h5">微信联系</text>
     <image class="footer-qrcode" mode="widthFix" bindtap="tapQrCode" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_wechat.png"></image>
   </view>
 </view>

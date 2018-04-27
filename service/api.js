@@ -1,4 +1,4 @@
-const host = 'http://www.boostfield.com'
+const host = 'https://www.boostfield.com'
 
 let Api = {
   'getCases': host + '/wp-json/wp/v2/posts?_embed&categories=18',

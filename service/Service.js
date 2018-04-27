@@ -11,6 +11,8 @@ class Service {
           imageUrl: data[index]._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url,
           month: new Date(data[index].date).getMonth() + 1,
           day: new Date(data[index].date).getDate(),
+          id: data[index].id,
+          link: data[index].link
         }
       }
       return data

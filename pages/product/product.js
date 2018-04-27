@@ -52,5 +52,21 @@ Page({
     this.setData({
       swiperItemCss: detail.current == 0 ? 'flex-center' : 'flex-left'
     })
+  },
+
+  tapPhone() {
+    wx.makePhoneCall({
+      phoneNumber: '05923278579'
+    })
+  },
+  
+  tapAddress() {
+    wx.openLocation({
+      latitude: 24.5161486550,
+      longitude: 118.1386685371,
+      scale: 28,
+      name: '在田信息技术有限公司',
+      address: '厦门市湖里区枋湖西路189号四海智慧园307'
+    })
   }
 })

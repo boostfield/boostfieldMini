@@ -1,5 +1,3 @@
-@import '../../wxParse/wxParse.wxss';
-
 .content {
   padding: 0 30rpx;
 }
