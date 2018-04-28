@@ -5,7 +5,8 @@
     "pages/about/about",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/contact/contact"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -14,8 +15,8 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#7A7E83",
-    "selectedColor": "#3d45b9",
+    "color": "#4A4A4A",
+    "selectedColor": "#6173F4",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "position": "bottom",
@@ -23,14 +24,14 @@
       {
         "pagePath": "pages/product/product",
         "text": "首页",
-        "iconPath": "image/tabbar/ic_toolbar_home_n.png",
-        "selectedIconPath": "image/tabbar/ic_toolbar_home_p.png"
+        "iconPath": "image/tabbar/ic_toolbar_home_n@3x.png",
+        "selectedIconPath": "image/tabbar/ic_toolbar_home_p@3x.png"
       },
       {
-        "pagePath": "pages/case/case",
-        "text": "案例",
-        "iconPath": "image/tabbar/ic_toolbar_case_n.png",
-        "selectedIconPath": "image/tabbar/ic_toolbar_case_p.png"
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们",
+        "iconPath": "image/tabbar/ic_toolbar_contact_n@3x.png",
+        "selectedIconPath": "image/tabbar/ic_toolbar_contact_p@3x.png"
       }
     ]
   }

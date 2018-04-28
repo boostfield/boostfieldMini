@@ -13,30 +13,75 @@
   </swiper>
 
   <view class="content">
-    <view class="service">
+    <view class="block">
       <view class="flex-row flex-vertical-center-left">
-        <view class="service-title-icon"></view>
-        <text class="font-size-h1">服务范围 SERVICE</text>
+        <text class="font-size-h1 font-color-h1 service">服务范围</text>
+        <text class="font-size-h1 font-color-h3">SERVICE</text>
       </view>
-      <view class="flex-column flex-center service-item">
-        <image class="service-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_01.png"></image>
-        <text class="font-color-black font-size-h3 service-subtitle">一站式解决方案</text>
-        <text class="font-color-h3 font-size-h6 service-desc">从需求梳理，UI设计，到产品开发，测试上线，我们全程服务，并为您提供专业的产品与技术建议。</text>
+      <view class="item-layout">
+        <view class="item">
+          <image src='../../image/img_service_01@2x.png' mode='aspectFit' class='service-icon'></image>
+          <text class='font-color-h2 font-size-h3 service-title'>小程序开发</text>
+          <text class='font-color-h3 font-size-h6 service-subtitle'>率先抢占微信小程序先机，完美贴合时代潮流。</text>
+        </view>
+        <view class="item">
+          <image src='../../image/img_service_02@2x.png' mode='aspectFit' class='service-icon'></image>
+          <text class='font-color-h2 font-size-h3 service-title'>定制建站</text>
+          <text class='font-color-h3 font-size-h6 service-subtitle'>满足企业专业化，个性化的互联网需求，提供最适合企业需求的建站方案。</text>
+        </view>
+        <view class="item">
+          <image src='../../image/img_service_03@2x.png' mode='aspectFit' class='service-icon'></image>
+          <text class='font-color-h2 font-size-h3 service-title'>APP开发</text>
+          <text class='font-color-h3 font-size-h6 service-subtitle'>丰富的业务模块和云服务，按需快速定制企业App，打造全面的移动端解决方案。</text>
+        </view>
+        <view class="item">
+          <image src='../../image/img_service_04@2x.png' mode='aspectFit' class='service-icon'></image>
+          <text class='font-color-h2 font-size-h3 service-title'>区块链解决方案</text>
+          <text class='font-color-h3 font-size-h6 service-subtitle'>基于区块链底层技术，提供智能合约定制开发服务，实现应用的快速开发和平台搭建。</text>
+        </view>
       </view>
-      <view class="flex-column flex-center service-item">
-        <image class="service-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_02.png"></image>
-        <text class="font-color-black font-size-h3 service-subtitle">可扩展的架构</text>
-        <text class="font-color-h3 font-size-h6 service-desc">深度剖析行业与业务发展趋势，用松耦合，易扩展的架构拥抱不断演进的需求。</text>
+    </view>
+
+    <view class="block">
+      <view class="flex-row flex-vertical-center-left">
+        <text class="font-size-h1 font-color-h1 service">服务特色</text>
+        <text class="font-size-h1 font-color-h3">FEATURE</text>
       </view>
-      <view class="flex-column flex-center service-item">
-        <image class="service-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_03.png"></image>
-        <text class="font-color-black font-size-h3 service-subtitle">进度实时反馈</text>
-        <text class="font-color-h3 font-size-h6 service-desc">根据项目具体要求设定里程碑，实时反馈进度, 保证您随时可知项目进展。</text>
+      <view class="item-layout">
+        <view class="item">
+          <image class="service-icon" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_01.png"></image>
+          <text class="font-color-h2 font-size-h3 service-title">一站式解决方案</text>
+          <text class="font-color-h3 font-size-h6 service-subtitle">从需求梳理，UI设计，到产品开发，测试上线，我们全程服务，并为您提供专业的产品与技术建议。</text>
+        </view>
+        <view class="item">
+          <image class="service-icon" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_02.png"></image>
+          <text class="font-color-h2 font-size-h3 service-title">可扩展的架构</text>
+          <text class="font-color-h3 font-size-h6 service-subtitle">深度剖析行业与业务发展趋势，用松耦合，易扩展的架构拥抱不断演进的需求。</text>
+        </view>
+        <view class="item">
+          <image class="service-icon" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_03.png"></image>
+          <text class="font-color-h2 font-size-h3 service-title">进度实时反馈</text>
+          <text class="font-color-h3 font-size-h6 service-subtitle">根据项目具体要求设定里程碑，实时反馈进度, 保证您随时可知项目进展。</text>
+        </view>
+        <view class="item">
+          <image class="service-icon" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_04.png"></image>
+          <text class="font-color-h2 font-size-h3 service-title">长期技术支持</text>
+          <text class="font-color-h3 font-size-h6 service-subtitle">助力企业的长期发展，一旦达成合作,我们将为您提供长期的技术支持与咨询服务。</text>
+        </view>
       </view>
-      <view class="flex-column flex-center service-item">
-        <image class="service-img" mode="aspectFit" src="https://www.boostfield.com/wp-content/uploads/2018/03/ic_service_04.png"></image>
-        <text class="font-color-black font-size-h3 service-subtitle">长期技术支持</text>
-        <text class="font-color-h3 font-size-h6 service-desc">助力企业的长期发展，一旦达成合作,我们将为您提供长期的技术支持与咨询服务。</text>
+    </view>
+
+    <view class="block">
+      <view class="flex-row flex-vertical-center-left">
+        <text class="font-size-h1 font-color-h1 service">产品案例</text>
+        <text class="font-size-h1 font-color-h3">CASE</text>
+      </view>
+      <view wx:for="{{cases}}" wx:key="{{item.id}}" bindtap="itemClick" data-id="{{item.id}}" data-link="{{item.link}}" class="case-item">
+        <view class="flex-column flex-left">
+          <image class="case-cover-image" mode="widthFix" src="{{item.imageUrl}}"></image>
+          <text class="case-title font-color-black font-size-h3">{{item.title}}</text>
+          <text class="case-sub-title font-size-h6 font-color-h3">{{item.subTitle}}</text>
+        </view>
       </view>
     </view>
 
@@ -62,4 +107,10 @@
     <text class="footer-title font-size-h5">微信联系</text>
     <image class="footer-qrcode" mode="widthFix" bindtap="tapQrCode" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_wechat.png"></image>
   </view>
+
+  <image src="../../image/bt_home_share@3x.png" mode="aspectFit" class="share-image" bindtap="showDialog"></image>
+</view>
+
+<view class="dialog" wx:if="{{isShowDialog}}" bindtap="hideDialog">
+  <button open-type='share' class="share_btn font-size-h5" animation="{{animationData}}">分享给好友</button>
 </view>

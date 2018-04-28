@@ -10,9 +10,15 @@
   box-sizing: border-box;
 }  */
 
+page {
+  display: block;
+  min-height: 100%;
+  background-color: #f6f6f6;
+}
+
 .container {
   background-color: #fff;
-  font-family: HelveticaNeue, PingFang SC, Microsoft YaHei;
+  /* font-family: HelveticaNeue, PingFang SC, Microsoft YaHei; */
 }
 
 .font-color-white {
@@ -28,15 +34,19 @@
 }
 
 .font-color-h1 {
-  color: #000;
+  color: #0D1631;
 }
 
 .font-color-h2 {
-  color: #585858;
+  color: #333;
 }
 
 .font-color-h3 {
-  color: #878787;
+  color: #666;
+}
+
+.font-color-h3 {
+  color: #999;
 }
 
 .font-size-large {
