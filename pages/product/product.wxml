@@ -1,15 +1,13 @@
 <view class="container">
 
   <swiper indicator-dots="true" indicator-active-color="#ffffff" class="swiper" bindchange="bindSwiperChange" circular="true" autoplay="true">
-    <block wx:for="{{banners}}" wx:key="{{item}}">
-      <swiper-item class="flex-column {{swiperItemCss}}">
-        <image class="swiper-img" src="{{item.img}}" mode="aspectFill"></image>
-        <view class="swiper-text flex-column {{swiperItemCss}} font-color-white">
-          <text class="swiper-title font-size-large">{{item.title}}</text>
-          <text class="swiper-subtitle font-size-h4">{{item.subTitle}}</text>
-        </view>
-      </swiper-item>
-    </block>
+    <swiper-item class="swiper-item" wx:for="{{banners}}" wx:key="{{index}}">
+      <image class="swiper-img" src="{{item.img}}" mode="aspectFill"></image>
+      <view class="swiper-text font-color-white flex-column {{swiperItemCss}}">
+        <text class="swiper-title font-size-large">{{item.title}}</text>
+        <text class="swiper-subtitle font-size-h4">{{item.subTitle}}</text>
+      </view>
+    </swiper-item>
   </swiper>
 
   <view class="content">
