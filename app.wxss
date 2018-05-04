@@ -34,7 +34,7 @@ page {
 }
 
 .font-color-h1 {
-  color: #0D1631;
+  color: #0d1631;
 }
 
 .font-color-h2 {
@@ -117,12 +117,24 @@ page {
   align-items: flex-start;
   justify-content: center;
 }
+
 .underline {
   text-decoration: underline;
 }
+
 .text-left {
   text-align: left;
 }
+
 .text-center {
   text-align: center;
+}
+
+.share-image {
+  width: 125rpx;
+  height: 125rpx;
+  position: fixed;
+  right: 15rpx;
+  bottom: 10rpx;
+  z-index: 10;
 }
