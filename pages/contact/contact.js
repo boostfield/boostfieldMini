@@ -28,11 +28,11 @@ Page({
 
   tapAddress() {
     wx.openLocation({
-      latitude: 24.5161486550,
-      longitude: 118.1386685371,
+      latitude: 24.477481,
+      longitude: 118.087564,
       scale: 28,
       name: '在田信息技术有限公司',
-      address: '厦门市湖里区枋湖西路189号四海智慧园307'
+      address: '厦门市思明区湖滨北路72号中闽大厦26楼C/D'
     })
   },
   

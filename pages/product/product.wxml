@@ -98,10 +98,7 @@
   <view class="flex-column footer">
     <image class="footer-logo" mode="widthFix" style="width: 120px;" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_bottom_logo.png"></image>
     <text class="footer-subtitle font-size-h4 highlight">厦门在田信息技术有限公司</text>
-    <text class="footer-title font-size-h5">联系我们</text>
-    <text class="footer-subtitle font-size-h6 underline" bindtap="tapAddress">厦门市湖里区枋湖西路189号四海智慧园307</text>
-    <text class="footer-subtitle font-size-h6 underline" bindtap="tapPhone">0592-3278579</text>
-    <text class="footer-subtitle font-size-h6">business@boostfield.com</text>
+    
     <text class="footer-title font-size-h5">微信联系</text>
     <image class="footer-qrcode" mode="widthFix" bindtap="tapQrCode" src="https://www.boostfield.com/wp-content/uploads/2018/03/img_wechat.png"></image>
   </view>

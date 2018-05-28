@@ -23,7 +23,7 @@
     <view class="line-2"></view>
     <view>
       <view class="left title">公司地址</view>
-      <view class="left subtitle width">厦门市湖里区枋湖西路189号四海智慧园307室</view>
+      <view class="left subtitle width">厦门市思明区湖滨北路72号中闽大厦26楼C/D</view>
     </view>
     <image src="../../image/ic_contact_navigation@3x.png" class="icon" bindtap='tapAddress'></image>
   </view>
