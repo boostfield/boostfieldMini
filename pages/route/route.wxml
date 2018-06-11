@@ -1,0 +1,2 @@
+<map-route wx:if="{{routeInfo}}" route-info="{{routeInfo}}"></map-route>
+<text>hello world</text>

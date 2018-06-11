@@ -122,5 +122,8 @@ Page({
         isShowDialog: false
       })
     }.bind(this), 100)
+  },
+  testRoute () {
+    navigateTo('../route/route')
   }
 })

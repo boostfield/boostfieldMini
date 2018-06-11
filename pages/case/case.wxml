@@ -1,8 +1,0 @@
-<view class="container">
-  <view wx:for="{{cases}}" wx:key="{{item.id}}" bindtap="itemClick" data-id="{{item.id}}" data-link="{{item.link}}" class="item">
-    <view class="flex-column flex-left">
-      <image class="cover-image" mode="widthFix" src="{{item.imageUrl}}"></image>
-      <text class="title font-size-h6">{{item.title}}</text>
-    </view>
-  </view>
-</view>

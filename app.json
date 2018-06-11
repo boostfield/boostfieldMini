@@ -1,12 +1,12 @@
 {
   "pages": [
     "pages/product/product",
-    "pages/case/case",
     "pages/about/about",
     "pages/index/index",
     "pages/logs/logs",
     "pages/detail/detail",
-    "pages/contact/contact"
+    "pages/contact/contact",
+    "pages/route/route"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -34,5 +34,11 @@
         "selectedIconPath": "image/tabbar/ic_toolbar_contact_p@3x.png"
       }
     ]
+  },
+  "plugins": {
+    "myPlugin": {
+      "version": "1.0.6",
+      "provider": "wx5bc2ac602a747594"
+    }
   }
 }
