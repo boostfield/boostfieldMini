@@ -88,6 +88,9 @@
 .service {
   margin-right: 10rpx;
   margin-left: 20rpx;
+  border-left: 8rpx solid #6173f4;
+  line-height: 1.0;
+  padding-left: 8rpx;
 }
 
 .service-desc {

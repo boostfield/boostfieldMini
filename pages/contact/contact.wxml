@@ -1,14 +1,15 @@
 <view>
-  <image class="cover" src='../../image/img_contact@3x.png' mode='aspectFit'></image>
+  <image class="cover" src='../../image/img_contact@2x.png' mode='aspectFit'></image>
 </view>
+<text>{{url}}</text>
 <view class="container">
-  <view class="item flex-row flex-vertical-center-left">
+  <view class="item flex-row flex-vertical-center-left" bindtap='tapPhone'>
     <view class="line-1"></view>
     <view>
       <view class="left title">联系电话</view>
       <view class="left subtitle">0592-3278579</view>
     </view>
-    <image src="../../image/ic_contact_phone@3x.png" class="icon" bindtap='tapPhone'></image>
+    <image src="../../image/ic_contact_phone@3x.png" class="icon" ></image>
   </view>
   <view class="item flex-row flex-vertical-center-left" hidden='true'>
     <view class="line-2"></view>
@@ -19,13 +20,13 @@
     <button open-type="contact">客服</button>
     <!-- <image src="../../image/ic_contact_service@3x.png" class="icon" bindtap='tapChat'></image> -->
   </view>
-  <view class="item-address flex-row flex-vertical-center-left">
+  <view class="item-address flex-row flex-vertical-center-left" bindtap='tapAddress'>
     <view class="line-2"></view>
     <view>
       <view class="left title">公司地址</view>
       <view class="left subtitle width">厦门市思明区湖滨北路72号中闽大厦26楼C/D</view>
     </view>
-    <image src="../../image/ic_contact_navigation@3x.png" class="icon" bindtap='tapAddress'></image>
+    <image src="../../image/ic_contact_navigation@3x.png" class="icon" ></image>
   </view>
 
   <image src="../../image/bt_home_share@3x.png" mode="aspectFit" class="share-image" bindtap="showDialog"></image>

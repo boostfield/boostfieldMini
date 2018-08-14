@@ -13,8 +13,8 @@
   <view class="content">
     <view class="block">
       <view class="flex-row flex-vertical-center-left">
-        <text class="font-size-h1 font-color-h1 service">服务范围</text>
-        <text class="font-size-h1 font-color-h3">SERVICE</text>
+        <text class="font-size-h1 font-color-h1 service">服务范围<text class="font-size-h2 font-color-h3 font-thin"> SERVICE</text></text>
+        
       </view>
       <view class="item-layout">
         <view class="item">
@@ -42,8 +42,8 @@
 
     <view class="block">
       <view class="flex-row flex-vertical-center-left">
-        <text class="font-size-h1 font-color-h1 service">服务特色</text>
-        <text class="font-size-h1 font-color-h3">FEATURE</text>
+        <text class="font-size-h1 font-color-h1 service">服务特色<text class="font-size-h2 font-color-h3 font-thin"> FEATURE</text></text>
+        
       </view>
       <view class="item-layout">
         <view class="item">
@@ -71,8 +71,8 @@
 
     <view class="block">
       <view class="flex-row flex-vertical-center-left">
-        <text class="font-size-h1 font-color-h1 service">产品案例</text>
-        <text class="font-size-h1 font-color-h3">CASE</text>
+        <text class="font-size-h1 font-color-h1 service">产品案例<text class="font-size-h2 font-color-h3 font-thin"> CASE</text></text>
+        
       </view>
       <view wx:for="{{cases}}" wx:key="{{item.id}}" bindtap="itemClick" data-id="{{item.id}}" data-link="{{item.link}}" class="case-item">
         <view class="flex-column flex-left">

@@ -3,7 +3,7 @@ const Api = require('../service/Api')
 
 class Service {
   static getCases() {
-    return Fetch.getLoading(Api.getCases).then((data) => {
+    return Fetch.get(Api.getCases).then((data) => {
       for (let index in data) {
         data[index] = {
           title: data[index].title.rendered,

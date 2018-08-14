@@ -84,46 +84,46 @@ Page({
     navigateTo('../detail/detail?', { 'id': id, 'link': link })
   },
 
-  showDialog: function () {
-    // 显示遮罩层
-    var animation = wx.createAnimation({
-      duration: 300,
-      timingFunction: "ease"
-    })
-    this.animation = animation
-    animation.translateY(200).step()
-    this.setData({
-      animationData: animation.export(),
-      isShowDialog: true
-    })
-    setTimeout(function () {
-      animation.translateY(0).step()
-      this.setData({
-        animationData: animation.export()
-      })
-    }.bind(this), 100)
-  },
+  // showDialog: function () {
+  //   // 显示遮罩层
+  //   var animation = wx.createAnimation({
+  //     duration: 300,
+  //     timingFunction: "ease"
+  //   })
+  //   this.animation = animation
+  //   animation.translateY(200).step()
+  //   this.setData({
+  //     animationData: animation.export(),
+  //     isShowDialog: true
+  //   })
+  //   setTimeout(function () {
+  //     animation.translateY(0).step()
+  //     this.setData({
+  //       animationData: animation.export()
+  //     })
+  //   }.bind(this), 100)
+  // },
 
-  hideDialog: function () {
-    // 隐藏遮罩层
-    var animation = wx.createAnimation({
-      duration: 300,
-      timingFunction: "ease"
-    })
-    this.animation = animation
-    animation.translateY(200).step()
-    this.setData({
-      animationData: animation.export(),
-    })
-    setTimeout(function () {
-      animation.translateY(0).step()
-      this.setData({
-        animationData: animation.export(),
-        isShowDialog: false
-      })
-    }.bind(this), 100)
-  },
-  testRoute () {
-    navigateTo('../route/route')
-  }
+  // hideDialog: function () {
+  //   // 隐藏遮罩层
+  //   var animation = wx.createAnimation({
+  //     duration: 300,
+  //     timingFunction: "ease"
+  //   })
+  //   this.animation = animation
+  //   animation.translateY(200).step()
+  //   this.setData({
+  //     animationData: animation.export(),
+  //   })
+  //   setTimeout(function () {
+  //     animation.translateY(0).step()
+  //     this.setData({
+  //       animationData: animation.export(),
+  //       isShowDialog: false
+  //     })
+  //   }.bind(this), 100)
+  // },
+  // testRoute () {
+  //   navigateTo('../route/route')
+  // }
 })
